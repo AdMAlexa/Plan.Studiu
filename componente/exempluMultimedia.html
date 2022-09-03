@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplu cum folosim &lt;iframe&gt;</h1>
+    <iframe src="/HTMLStepOne.html" frameborder="" width="800" height="300"></iframe>
+
+    <h1>Exemplu video embed in pagina noastra de pe youtube</h1>
+    <p>penru a putea reda in pagina videoclipul, inlocuim sectiunea "watch?v=" cu "embed/"</p>
+    <img src="/Media/exempluEmbedPic.png" alt="exempluEmbedPic" width="1000" height="100" >
+    <br>
+    <iframe src="https://www.youtube.com/embed/YD1d-1hPuao" width="300" height="200"></iframe>
+    <h1>Exemplu de fisier audio in pagina</h1>
+    <p>
+        Putem adauga urmoatoarele atribute la acest element:<br>
+        controls - adauga controale audio (redarea, pauză și volumul)<br>
+        autoplay - pentru redarea automata a fisierului audio<br>
+        muted - redare cu sunet dezactivat<br>
+        loop - repetarea fisierului audio
+    </p>
+    <p>Elementul &lt;source&gt;</p>
+    <audio controls autoplay loop muted>
+        <source src="/Media/chillMusic.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Exemplu de fisier video in pagina</h1>
+    <p>la fel ca si elementul audio folosim aceleasi atribute doar trebuie sa ii adaugam un width si height.</p>
+    <br>
+    <video controls autoplay loop width="600" height="300">
+        <source src="/Media/chillVideo.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplu formular</h1>
+    <p>
+        Elementul &lt;input&gt; este cel mai folosit element de formular si acesta poate<br>
+        fi afisat in mai multe moduri, in functie de tipul de atribut.
+    </p>
+    <p>Obsevam ca avem elmentul &lt;label&gt;, acesta defineste elementul formular &lt;input&gt; </p>
+    <P>
+        Pentru a trimite acest formular catre server avem nevoie de un element &lt;button&gt; impreuna<br> 
+        cu atributul type="submit" sau elementul &lt;input&gt; impreuna cu atributul type="submit" .
+    </P>
+    <p>Un alt atribut utilizat imputului este reset acesta ajuta userul sa reseteze totul in cazul in care a gresit ceva.</p>
+    <br>
+
+    <form>
+        <label for="nume">
+            Nume
+        </label>
+        <input type="text" id="nume" name="nume" value="" placeholder="Nume">
+
+        <label for="email">
+            e-mail
+        </label>
+        <input type="email" id="email" name="email" placeholder="e-mail">
+
+        <label for="parola">
+            parola
+        </label>
+        <input type="password" id="parola" name="parola" placeholder="Minim 8 caractere!">
+
+
+        <button type="submit">
+            Trimite
+        </button>
+
+        <input type="reset">
+
+
+    </form>
+
+</body>
+</html>

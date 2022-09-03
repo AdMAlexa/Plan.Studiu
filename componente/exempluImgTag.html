@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>O imagine cu un figcation</h1>
+    <p>la o imagine ii mai putem adauga doua atribute "width" si "height" pentru a ajusta imagina in pagina noastra HTML si atributul style pentru a customiza imagina dupa placul nostru  </p>
+    <p>Pentru a avea in pagina o imagine cu un "figcaption" acestea vor fi cuprinse in tagul "figure"</p>
+    <figure>
+        <img src="/Media/copac.jpg" width="300px" height="300px" alt="" style="border: 10px solid red">
+        <figcaption>Acesta este un figcaption pentru img copac!</figcaption>
+    </figure>
+
+    <P>Atributul "alt" este foarte important deoarece acesta ii poate spune browser-ului ce sa arate in cazul in care imginea respectiva nu poate fi descarcata</P>
+    <br>
+    <img src="blablabla.jpg" width="300px" height="300px" alt="Imaginea nu poate fi descarcata!">
+
+    <h1>O imagine tip link</h1>
+        <a href="https://www.youtube.com/">
+            <img src="/Media/youtubepic.JPG" alt="youtubepic" style="height: 100px; width: 250px">
+        </a>
+
+    <h1>Exemplu de imagine introdusa dintr-un alt site web</h1>
+    <p>in cazul de fata folosesc https://picsum.photos/  pentru a obtine o imagine aleatorie de cate ori dau refresh la pagina.</p>
+    <img src="https://picsum.photos/200/300" width="300px" height="300px" alt="" style="border: 10px solid red; padding: 5px;">
+
+    <h1>Image map</h1>
+    <p>Image map este încă o parte a standardului și au utilizări valide</p>
+    <p>
+        Pentru a crea o Image map adaugam in elementul nostru &lt;img&gt; atributul usemap="#NumeMap" pentru a o legatura cu urmatorul proces.<br>
+        Pentru a defini anumite parti din imagionea noastra incepem cu tag-ul &lt;map&gt; adaugand atributul de legatura name="#NumeMap"<br>
+        In interiorul tag-ului &lt;map&gt; avem tagul &lt;area&gt; in care definim o anumita parte a imaginii.
+    </p>
+    <p>In ca zul de fata am folosit https://www.image-map.net/ pentru a crea Image map foarte usor si gratuit.</p>
+
+
+    <img src="/Media/webDevPic.jpg" usemap="#image-map" alt="webDevPic">
+
+    <map name="image-map">
+        <area target="_blank" alt="HTML" title="HTML" href="https://www.w3schools.com/html/default.asp" coords="148,125,82,36" shape="rect">
+        <area target="_blank" alt="CSS" title="CSS" href="https://developer.mozilla.org/en-US/docs/Learn/CSS " coords="82,243,149,156" shape="rect">
+        <area target="_blank" alt="JAVA" title="JAVA" href="https://www.javaguides.net/" coords="81,371,148,285" shape="rect">
+        <area target="_blank" alt="PHP" title="PHP" href="https://phpapprentice.com/" coords="501,36,567,124" shape="rect">
+        <area target="_blank" alt="C++" title="C++" href="https://cplusplus.com/doc/tutorial/" coords="503,280,566,366" shape="rect">
+        <area target="_blank" alt="Computer monitor" title="Computer monitor" href="https://en.wikipedia.org/wiki/Computer_monitor" coords="200,10,454,128" shape="rect">
+        <area target="_blank" alt="Computer keyboard" title="Computer keyboard" href="https://en.wikipedia.org/wiki/Computer_keyboard" coords="230,162,415,244" shape="rect">
+        <area target="_blank" alt="Computer mouse" title="Computer mouse" href="https://en.wikipedia.org/wiki/Computer_mouse" coords="432,182,460,226" shape="rect">
+        <area target="_blank" alt="Pen" title="Pen" href="https://en.wikipedia.org/wiki/Pen" coords="570,154,501,169" shape="rect">
+        <area target="_blank" alt="Coffee" title="Coffee" href="https://en.wikipedia.org/wiki/Coffee" coords="540,224,33" shape="circle">
+    </map>
+</body>
+</html>

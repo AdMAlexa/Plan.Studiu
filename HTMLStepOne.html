@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial HTML</title>
+	<style>
+		body {
+			background-color: antiquewhite;
+		}
+	</style>
+</head>
+<body>
+	<h1>Tutorial HTML</h1>
+
+	<br>
+
+	<h2>1. What is HTML</h2>
+
+	<br>
+
+	<p>HTML = HyperText Markup Language, acesta defineste semnificatia si structura continutului web.</p>
+
+	<br>
+
+	<h2>2. Simple HTML Document (doctype, head, body)</h2>
+
+	<br>
+
+	<h3>2.1 doctype</h3>
+
+	<br>
+
+	<p>
+		&lt;!DOCTYPE html&gt; este primul lucru ce trebuie facut intr-un document HTML.<br>
+		Aceasta declaratie ii spune browser-ului ce tip de versiune HTML este folosita.
+	</p>
+
+	<br>
+
+	<img src="/Media/doctypepic.jpg" alt="doctypepic" style="height: 200px; width: 600px;">
+
+	<br>
+
+	<h3>2.2 head</h3>
+
+	<br>
+
+	<p> &lt;head&gt; = contine metadata site-ului</p>
+
+	<br>
+
+	<img src="/Media/headlocation.jpg" alt="headlocation" style="height: 200px; width: 600px;">
+
+	<br>
+
+	<h4>Cateva elemente din &lt;head&gt;</h4>
+
+	<br>
+
+	<p>
+		&lt;meta&gt; = acest element este folosit pentru a specifica setulul de caractere, descrierea paginii,<br>
+		cuvintele cheie, autorul documentului si setarile ferestrei de vizualizare.
+	</p>
+	<p>&lt;link&gt; = acest element realizeaza legatura cu un alt document din sursa externa</p>
+	<p>&lt;title&gt;= acest element defineste titlul documentlui HTML si nu este decat unul</p>
+	<img src="/Media/titluweb.jpg" alt="titluweb" style="height: 200px; width: 600px;">
+
+	<br>
+
+	<h3>2.3 &lt;body&gt;</h3>
+
+	<br>
+
+	<p> 
+		&lt;body&gt; = reprezinta continutul unui document HTML.<br>
+		Intr-un document poate exista un singur element &lt;body&gt;
+	</p>
+
+	<br>
+
+	<p>Cele mai intalanite tagu-ri din structura &lt;body&gt; sunt:</p>
+	<img src="/Media/bodypic.jpg" alt="bodypic" style="height: 1000px; width: 600px;">
+
+	<br>
+
+	<h2>3. HTML elements [semantic and non-semantic](table, article, h1, p, ul, ol,...) </h2>
+
+	<br>
+
+	<h3>3.1 HTML non-semantic elements</h3>
+
+	<br>
+
+	<p>&lt;div&gt; si &lt;span&gt; sunt elemente non-semnatice care nu ne spun nimic despre continutul sau.</p>
+
+	<br>
+
+	<h4>3.1.1 &lt;div&gt; Tag</h4>
+
+	<br>
+
+	<p>&lt;div&gt; vine de la diviziune. Acesta este folosit pentru a împarti conținutul in secttiuni, astfel incat sa ne fie mai usor sa revin in cod si sa stim unde este informatia pe care o cautam</p>
+	<p>&lt;div&gt; este folosit ca un container pentru elemente HTML</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exemplu.div.Tag.html">&lt;div&gt; Tag</a></p>
+
+	<br>
+	
+	<img src="/Media/divelementpic.JPG" alt="divelementpic" style="height: 600px; width: 1200px;">
+
+	<br>
+
+	<h4>3.1.2 &lt;span&gt; Tag</h4>
+
+	<br>
+
+	<P>&lt;span&gt; este un inline element folosit pentru a marca o parte a unui text sau o parte a unui document.</P>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exemplu.span.Tag.html">&lt;span&gt; Tag</a></p>
+
+	<br>
+
+	<img src="/Media/spantagpic.JPG" alt="spantagpic" style="height: 600px; width: 1200px;">
+
+	<br>
+
+	<h3>3.2 HTML semantic elements</h3>
+
+	<br>
+
+	<p>
+		Elementele semantice ne spun ce se intampla in continutul sau.<br>
+		Cateva elemente semantice le putem gasi intr-un HTML Layout
+	</p>
+
+	<br>
+
+	<h4 id="imgLayout">HTML Layout </h4>
+
+	<br>
+
+	<img src="/Media/structuraSemanticElements.jpg" alt="structuraSemanticElements" style="height: 600px; width: 1200px;">
+
+	<br>
+
+	<h2>4. HTML attributes (id, class, href,....) </h2>
+
+	<br>
+
+	<h3>4.1 Atributul id</h3>
+
+	<p>
+		Atributul id are ca si tinta un id unic pentru un element HTML.<br>
+		Valoarea atributului id trebuie sa fie unica in documentul HTML.<br>
+		Atributul id este folosit pentru a indica o anumită declaratie de stil într-o pagina html<br>
+		Sintaxa pentru id este: (#), urmat de un nume de id.
+	</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluAtributID.html">Atributul id</a></p>
+
+	<br>
+
+	<img src="/Media/exempluAtributID.JPG" alt="exempluAtributID" style="height: 600px; width: 1200px;">
+
+	<br>
+
+	<h3>4.2 Atributul class</h3>
+
+	<br>
+
+	<p>
+		Atributul class este adesea folosit pentru a indica un nume de clasă într-un "fileName.css" pentru a-l stiliza.
+		Atributul class are ca si tinta mai multe elemente html care au acelasi scop.
+	</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluAtributClass.html">Atributul class</a></p>
+
+	<br>
+
+	<img src="/Media/exempluAtributClass.JPG" alt="exempluAtributClass" style="height: 600px; width: 1200px;">
+
+	<br>
+
+	<h3>4.3 Atributul href</h3>
+
+	<br>
+
+	<p>
+		Atributul href specifică adresa URL a paginii la care merge linkul.<br>
+		Folosim href="#" pentru a face legătura către partea a paginii curente.
+	</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluAtributHref.html">Atributul href</a></p>
+
+	<br>
+
+	<h3>4.4 Atributul title</h3>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluAtributTitle.html">Atributul title</a></p>
+
+	<br>
+
+	<h3>4.5 Atributul align</h3>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluAtributAlign.html">Atributul align</a></p>
+
+	<br>
+
+	<h2>5. HTML formatting elements</h2>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluFormattingElements.html">Formatting elements</a></p>
+
+	<br>
+
+	<h2>6. HTML Styling and Colors</h2>
+
+	<br>
+
+	<h3>6.1 style attribute</h3>
+
+	<br>
+
+	<p>Atributul style este folosit pentru a adauga stiluri unui element, cum ar fi culoarea, fontul, dimensiunea si multe altele.</p>
+	<p>
+		style extern - defineste reguli de stil intr-un fisier.css separat si apoi includem acel fisier in documentul nostru HTML folosind eticheta HTML "link".<br>
+
+		style intern - defineste reguli de stil in secțiunea &lt;head&gt; a documentului HTML folosind atribut style<br>
+		
+		style inline - defineste reguli de stil impreună cu elementele HTML folosind atributul de style.
+	</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluAtributStyle.html">Atributul style</a></p>
+
+	<br>
+
+	<img src="/Media/exempluStylepic.jpg" alt="exempluStylepic" style="height: 600px; width: 1200px;">
+
+	<br>
+
+	<h3>HTML colors</h3>
+
+	<br>
+
+	<p>Culorile sunt specificate cu nume de culori sau cu valori RGB, RGBA, HEX, HSL si HSLA.</p>
+
+	<br>
+
+	<p>RGB (red, green, blue). Fiecare parametru (red, green, blue) defineste intensitatea culorii cu o valoare intre 0 si 255.</p>
+
+	<br>
+
+	<p>RGBA(red, green, blue, alpha). Aici avem in plus parametrul alfa care este un numar intre 0,0 (complet transparent) si 1,0 (deloc transparent).</p>
+
+	<br>
+
+	<p>HEX colors notat astfel #rrggbb. Exact ca si la RGB, rr reprezinta red, gg reprezinta green, bb reprezinta blue, acestea sunt valori hexazecimale cuprinse intre 00 si ff</p>
+
+	<br>
+
+	<p>
+		HSL colors (hue, saturation, lightness).<br>
+		hue - este un grad pe roata de culori de la 0 la 360. 0 este roșu, 120 este verde și 240 este albastru.<br>
+		saturation - este o valoare procentuală. 0% înseamnă o nuanță de gri, iar 100% este culoarea completă.<br>
+		lightness - este, de asemenea, o valoare procentuală. 0% este negru, iar 100% este alb.
+	</p>
+
+	<br>
+
+	<p>HSLA (hue, saturation, lightness, alpha). La fel ca si la RGBA si aici avem in plus parametrul alfa care este un numar între 0,0 (complet transparent) si 1,0 (deloc transparent).</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluColorPage.html">Pagina colorata!</a></p>
+
+	<br>
+
+	<h2>7. HTML Images </h2>
+
+	<br>
+
+	<P>Ca sa introducem o imagine in pagina noastra HTML avem nevoie de un tag  &lt;img&gt; , un atribut sursa " src="#" " si un atribut " alt="exempluText" " </P>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluImgTag.html">HTML &lt;img&gt;</a></p>
+
+	<br>
+
+	<h2>8. HTML Tables</h2>
+
+	<br>
+
+	<p>
+		Elementul pentru tabel este &lt;table&gt; <br>
+		Inauntrul elementului &lt;table&gt; putem avea &lt;thead&gt;, &lt;tbody&gt; si &lt;tfoot&gt; adica corpul tabelului<br> 
+		Un &lt;table&gt; poate sa aiba mai multe body-uri depinde de cum vrem sa le structuram.<br>
+		- pentru a definu un rand de tabel folosim &lt;tr&gt;<br>
+		- pentru a defini un titlu de coloana folosim &lt;th&gt;<br>
+		- pentru a defini o coloana folosim  &lt;td&gt;
+	</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluTable.html">HTML &lt;table&gt;</a></p>
+
+	<br>
+
+	<img src="/Media/exempluTabelPic.jpg" alt="exempluTabelPic" style="height: 500px; width: 1300px;">
+
+	<br>
+
+	<h2>9. HTML Forms </h2>
+
+	<br>
+
+	<p>
+		Tagul &lt;form&gt; este foarte important deoarece este un modul prin care putem trimite informatii din partea clientului catre srever.<br>
+		Ca sa ne dam seama cum arata un formular este exact ca atunci cand ne logam pe facebook, g-mail sau alte platforme unde ne cere un userName<br>
+		parola sau adresa de e-mail.
+	</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluForm.html">HTML Forms</a></p>
+
+	<br>
+
+	<h2>10.HTML Lists</h2>
+
+	<p>
+		Sunt trei moduri prin care putem specifica o lista. Toate listele trebuie să contină unul sau mai multe elemente &lt;li&gt; lista.<br>
+		Listele pot contine:<br>
+		&lt;ul&gt; o lista neordonată. Aceasta va lista articolele folosind marcatori simple.<br>
+		&lt;ol&gt; o lista ordonată. Aceasta va folosi diferite scheme de numere pentru a va lista articolele.<br>
+		&lt;dl&gt; o lista de definitii. Acest lucru va aranjeaza articolele in acelasi mod în care sunt aranjate intr-un dictionar.
+	</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluList.html">HTML list</a></p>
+
+	<br>
+
+	<h2>11.HTML Metainfo</h2>
+
+	<br>
+
+	<p>
+		Metainfo &lt;meta&gt; il gasim in elementul &lt;head&gt; acesta este utilizat de browsere cum să afiseze continutul sau cum să reincarcati <br>
+		pagina, motoarele de cautare (keywords) si alte servicii web.
+	</p>
+
+	<br>
+
+	<img src="/Media/exempluMetaPic.jpg" alt="exempluMetaPic" style="height: 600px; width: 1200px;">
+
+	<br>
+
+	<h2>12.HTML iframe, video, audio and embedding</h2>
+
+	<br>
+
+	<p>Un &lt;iframe&gt; tag este folosit pentru a afisa o pagină web in interiorul paginii web.</p>
+	<p>Tag-ul &lt;audio&gt; este folosit pentru a reda un fisier audio pe o pagina web.</p>
+	<p>Tag-ul &lt;video&gt; este folosit pentru a afisa un videoclip pe o pagina web.</p>
+	<p>Tag-ul &lt;embed&gt; defineste un container pentru o resursa externa, cum ar fi o pagina web, o imagine, un player media sau o aplicatie plug-in.</p>
+
+	<br>
+
+	<p>exemplu <a href="/componente/exempluMultimedia.html">HTML iframe, video, audio and embedding</a></p>
+
+	<br>
+
+	<h2>13.HTML Javascript</h2>
+
+	<br>
+
+	<p>Folosim JavaScript pentru a programa continutul paginii web.</p>
+	<p>
+		Elementul &lt;script&gt;:<br>
+		- fie conține instructiuni de scriptare al caror continut este plasat la sfarsitul tag-ului &lt;body&gt;<br>
+		- fie metoda cea mai practica si folosita prin indicarea unui fisier extern de javascript 
+	</p>
+	<br>
+
+	<img src="/Media/exempluScriptPic.jpg" alt="exempluScriptPic" style="height: 600px; width: 1200px;">
+
+	<br>
+
+	<h2>14.HTML Entities</h2>
+
+	<br>
+
+	<p>
+		HTML entity este o bucata de text "string" care începe cu simbolul "&" si se termina cu punct si virgula ";".<br>
+		Entitatile sunt utilizate pentru a afisa caractere care ar fi interpretate de HTML ca si cod.<br>
+		Pentru o documentatie mai ampla vizitam site-ul <a href="https://www.rapidtables.com/web/html/html-codes.html" target="_blank">RapidTables</a>.
+	</p>
+
+	<br>
+
+	<h2>15.HTML Encoding </h2>
+
+	<br>
+	<p>
+		Pentru a afisa corect o pagina html, HTML-ul nostru trebuie sa stie ce set de caractere sa foloseasca iar acest<br>
+		lucru este specificat in &lt;meta&gt; tag in partea de &lt;head&gt;: &lt;meta charset="UTF-8"&gt;
+	</p>
+	<br>
+	<p>
+		URL encoding este traducerea caracterelor neimprimabile sau caractere cu semnificatie specială in URL-uri într-o reprezentare<br>
+		fara ambiguitate si acceptata universal de browserele web si servere.
+	</p>
+	<br>
+	<ol>
+        <p>Aceste caractere includ:</p>
+        <li>
+			ASCII control characters - Caractere neimprimabile utilizate de obicei pentru controlul iesirii. Interval de caractere<br>
+			 00-1F hex (0-31 zecimale) și 7F (127 zecimale)</li>
+        <li>
+			Non-ASCII control characters - Acestea sunt caractere dincolo de setul de caractere ASCII de 128 de caractere.<br>
+			Acest interval face parte din setul de caractere ISO-Latin si include intreaga „jumatate superioara” a setului<br>
+			ISO-Latin 80-FF hex (128-255 zecimale).</li>
+        <li>
+			Reserved characters - Acestea sunt caractere speciale, cum ar fi dollar sign, ampersand, plus, common,<br>
+			forward slash, colon, semi-colon, equals sign, question mark, and “at” symbol.Toate acestea pot avea semnificații<br>
+			diferite în interiorul unei adrese URL, asa ca trebuie să fie encoded</li>
+        <li>
+			Unsafe characters - Acestea sunt space, quotation marks, less than symbol, greater than symbol, pound character,<br>
+			percent character, Left Curly Brace, Right Curly Brace, Pipe, Backslash, Caret, Tilde, Left Square Bracket,<br>
+			Right Square Bracket, Grave Accent. Aceste caractere prezinta posibilitatea de a fi intelese gresit în URL-uri<br>
+			din diverse motive astfel si acestea trebuie sa fie encoded</li>
+    </ol>
+	<br>
+	<p>
+		URL encoding inlocuieste caracterele ASCII nesigure cu un semn de procent si doua cifre hexazecimale.
+	</p>
+	<img src="/Media/exempluSpaceTitlu.jpg" alt="exempluSpaceTitlu" style="height: 100px; width: 600px;">
+	<br>
+	<p>URLs nu pot contine spatii prin urmare encoding-ul inlocuieste aceste spatii cu un semn plus.</p>
+	<img src="/Media/exempluSearchSpaces.png" alt="exempluSpaceTitlu" style="height: 100px; width: 600px;">
+
+	<br>
+
+	<h2>16.HTML Layout</h2>
+
+	<br>
+
+	<p>
+		Cel mai impoortant lucru atunci cand incepem sa contruim o pagina web este partea de Layout.<br>
+		Layout -ul este o tehnica de a imbunatati aspectul pagini web pentu a fi cat mai atractiv.
+	</p>
+	<a href="#imgLayout">Exemplu de HTML Layout</a>
+
+
+
+
+
+
+
+	
+	
+
+
+
+</body>
+</html>
